@@ -15,7 +15,7 @@ class App extends React.Component {
 
 	constructor(props) {
 		super(props);
-		this.state = {employees: [], attributes: [], page: 1, pageSize: 2, links: {}
+		this.state = {employees: [], attributes: [], page: 1, pageSize: 10, links: {}
 		   , loggedInManager: this.props.loggedInManager};
 		this.updatePageSize = this.updatePageSize.bind(this);
 		this.onCreate = this.onCreate.bind(this);
@@ -262,24 +262,27 @@ class CreateDialog extends React.Component {
 
 	render() {
 		const inputs = this.props.attributes.map(attribute =>
-			<p key={attribute}>
-				<input type="text" placeholder={attribute} ref={attribute} className="field"/>
+			<p key={attribute}><p>
+				<input class="form-control form-control-lg" type="text" ref={attribute} className="field"/>
+				</p>
 			</p>
 		);
 		return (
 			<div>
-				<a href="#createEmployee">Create</a>
-
 				<div id="createEmployee" className="modalDialog">
 					<div>
-						<a href="#" title="Close" className="close">X</a>
-
-						<h2>Create New Notes</h2>
-
+						<p class="d-flex justify-content-center display-4">Create New Note</p>
+						<h5 class="d-flex justify-content-center">Date Created/Description/Note</h5>
 						<form>
+							<div class="d-flex justify-content-center">
 							{inputs}
-							<button onClick={this.handleSubmit}>Create</button>
+							</div>
+								<li class="nav-item d-flex justify-content-center py-3"> 
+
+							<button class="d-flex justify-content-center" onClick={this.handleSubmit}>Create</button>
+														</li>
 						</form>
+
 					</div>
 				</div>
 			</div>
@@ -325,14 +328,10 @@ class UpdateDialog extends React.Component {
 				)
 		} else {
 			return (
-				<div>
-					<a href={"#" + dialogId}>Update</a>
-	
+				<div>	
 					<div id={dialogId} className="modalDialog">
-						<div>
-							<a href="#" title="Close" className="close">X</a>
-	
-							<h2>Update Notes</h2>
+						<div>	
+							<a>Update Notes</a>
 	
 							<form>
 								{inputs}
@@ -390,7 +389,7 @@ class EmployeeList extends React.Component {
 
 	render() {
 		const pageInfo = this.props.page.hasOwnProperty("number") ?
-			<h3>Notes - Page {this.props.page.number + 1} of {this.props.page.totalPages}</h3> : null;
+			<h3 class="nav-item d-flex justify-content-center py-3">Notes - Page {this.props.page.number + 1} of {this.props.page.totalPages}</h3> : null;
 
 		const employees = this.props.employees.map(employee =>
 			<Employee key={employee.entity._links.self.href}
@@ -418,8 +417,12 @@ class EmployeeList extends React.Component {
 		return (
 			<div>
 				{pageInfo}
+				<div class="d-flex justify-content-center">
 				<input ref="pageSize" defaultValue={this.props.pageSize} onInput={this.handleInput}/>
-				<table>
+				</div>
+				<p>  </p>
+				<p>  </p>
+				<table class="table table-striped table-bordered table-hover">
 					<tbody>
 						<tr>
 							<th>Date Created</th>
@@ -478,4 +481,6 @@ ReactDOM.render(
 	<App loggedInManager={document.getElementById('managername').innerHTML } />,
 	document.getElementById('react')
 )
+
+
 
