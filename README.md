@@ -27,4 +27,5 @@ Technologies used in this project are:
 
 ![image](https://user-images.githubusercontent.com/54638283/144171419-1a5a2142-3e04-418e-9a67-62e9db479cfc.png)
 
+![image](https://user-images.githubusercontent.com/54638283/144171450-ebe65141-f7a2-4b9e-88d4-eccea173ce79.png)
 
