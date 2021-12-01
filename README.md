@@ -37,7 +37,8 @@ Import the project into your preferred IDE as a Maven project
 
 Use the following file path and run *ReactAndDataRestApplication.java*
 * <your-file-path-here>/security/src/main/java/com/registernotes/notes/ReactAndSpringDataRestApplication.java
-## System Diagram, Class/Sequence/ Db schema 
+
+## System Diagram, Class/Sequence, DB Schema 
 ![image](https://user-images.githubusercontent.com/54638283/144174518-8e32d9a6-533f-4294-9b0f-4a8e798ce74f.png)
 * System Diagram
 ![image](https://user-images.githubusercontent.com/54638283/144174591-dc9d426c-06ba-412c-95c7-c0a3ff4dcc5c.png)
