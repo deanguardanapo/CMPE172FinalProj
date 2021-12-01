@@ -46,6 +46,7 @@ Use the following file path and run *ReactAndDataRestApplication.java*
 * Class Diagram
   
 ![image](https://user-images.githubusercontent.com/54638283/144174643-04aceb85-f7d5-4299-bb1b-f1288468e7ca.png)
+
 *Sequence Diagram
   
 ![image](https://user-images.githubusercontent.com/54638283/144174702-5e013ab8-05cc-4f6e-b9c1-cb6791d24cd8.png)
