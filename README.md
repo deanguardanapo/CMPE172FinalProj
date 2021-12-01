@@ -24,5 +24,7 @@ Technologies used in this project are:
 * Eclipse
 ### Sample Demo Screenshots
 ![image](https://user-images.githubusercontent.com/54638283/144171298-3f6574f5-0c78-40e9-99e5-f14cf1205598.png)
-* Homepage
+
+![image](https://user-images.githubusercontent.com/54638283/144171419-1a5a2142-3e04-418e-9a67-62e9db479cfc.png)
+
 
