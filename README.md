@@ -23,5 +23,6 @@ Technologies used in this project are:
 * Node
 * Eclipse
 ### Sample Demo Screenshots
-
+![image](https://user-images.githubusercontent.com/54638283/144171298-3f6574f5-0c78-40e9-99e5-f14cf1205598.png)
+* Homepage
 
