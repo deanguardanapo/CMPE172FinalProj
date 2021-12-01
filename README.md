@@ -22,6 +22,6 @@ Technologies used in this project are:
 * H2
 * Node
 * Eclipse
-## Sample Demo Screenshots
+### Sample Demo Screenshots
 
 
