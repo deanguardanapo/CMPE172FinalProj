@@ -33,3 +33,7 @@ Technologies used in this project are:
 Keep folder structure as is in the github
 
 ## How To Run Application Locally
+Import the project into your preferred IDE as a Maven project
+
+Use the following file path and run *ReactAndDataRestApplication.java*
+* <your-file-path-here>/security/src/main/java/com/registernotes/notes/ReactAndSpringDataRestApplication.java
