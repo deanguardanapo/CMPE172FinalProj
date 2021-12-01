@@ -21,4 +21,5 @@ Technologies used in this project are:
 * H2
 * Node
 * Eclipse
+The problem that we are trying to solve is that we would like to create a place where users can easily share their notes in a neat and organized manner with other people who share an interest in their notes. A website like this could even be utilized like a blogging site where notes that are taken can be either for entertainment purposes or educational ones such as notes for classes.
 
